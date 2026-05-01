@@ -1,0 +1,21 @@
+# Generated logs
+docs/*.log
+
+# Local environment
+.env
+.env.*
+*.local
+*.secret
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Editor state
+.vscode/
+.idea/
+.codex
+**/.comments/
