@@ -16,6 +16,21 @@ gtex62-shared-assets/
 └── docs/
 ```
 
+## Font Installation
+
+Fonts can be installed into `~/.local/share/fonts/` using the helper script in
+`gtex62-core`:
+
+```bash
+bash ~/.config/conky/gtex62-core/scripts/install-fonts.sh
+```
+
+Running the script is optional, but fonts required by a specific suite must be
+installed for that suite to render correctly. Required fonts are listed in each
+suite's README. The script copies all fonts from this repo's `fonts/` tree,
+preserves subdirectory structure, writes a manifest at
+`~/.local/share/fonts/.gtex62-core-fonts.manifest`, and runs `fc-cache -f`.
+
 ## Ownership
 
 - Wallpapers, reusable icon packs, shared font binaries, and shared data files live here.
